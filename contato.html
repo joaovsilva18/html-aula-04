@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE CONTATO</title>
+</head>
+<body>
+    <h1>CADASTRO DEV</h1>
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+        </fieldset>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label>Numero</label>
+            <input type="number" name="numero" id="numero">
+        </div>
+        <div>
+            <label>Seleçao de Assuntos</label>
+            <label>
+                <input type="radio" name="devweb" value="frontend">front-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">back-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">fullstack
+            </label>
+        </div>
+        <div>
+            <label>Qual o seu Genero</label>
+            <label>
+                <input type="radio" name="devweb" value="Masculino">Masculino
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Feminino">Feminino
+            </label>
+        </div>
+        <fieldset>
+            <div>
+                <label>Aceite os termos e condiçoes de confidelidade</label>
+                <input type="checkbox" id="aceito" name="aceito" value="aceitar">
+                <label for="aceito">aceitar termos?</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <br>
+            <label>conte sua experiencia</label>
+            <textarea name="experiencia" id="experiencia" rows="6"></textarea>
+        </div>
+
+        <button type="submit">concluido</button>
+    </form>
+    
+</body>
+</html>
